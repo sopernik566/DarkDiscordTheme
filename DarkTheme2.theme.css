@@ -1,0 +1,215 @@
+//META{"name":"Dark WIP2","description":"WIP. Probably broken, messy, missing a lot.","author":"Fiwes","version":"0.1"}*//
+
+.members-1998pB .member-3W1lQa .status-oxiHuE {
+	transition: all 150ms ease;
+    will-change: border-color, width, background, height, padding;
+}
+
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE, .members-1998pB .member-3W1lQa.popout-open .status-oxiHuE {
+    width:100% !important;
+    background: transparent;
+    border-radius: inherit;
+    height: 100%;
+	right: -4px !important;
+	bottom: -4px;
+	padding: 2px;
+	transition: all 150ms ease;
+	border-width: 2px;
+	margin: 0;
+}
+
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.online-2S838R,
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.online-2S838R {border-color: #43b581 !important}
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.idle-3DEnRT,
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.idle-3DEnRT {border-color: #faa61a !important}
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.dnd-1_xrcq,
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.dnd-1_xrcq {border-color: #f04747 !important}
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.offline-3qoTek,
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.offline-3qoTek {border-color: #636b75 !important}
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.streaming-2_dnHe,
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.streaming-2_dnHe {border-color: #593695 !important}
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.typing-1KJk_j,
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.typing-1KJk_j {background-color: rgba(0, 0, 0, 0.4) !important;}
+.members-1998pB .member-3W1lQa.popout-open .status-oxiHuE.typing-1KJk_j .inner-1gJC7_,
+.members-1998pB .member-3W1lQa:hover .status-oxiHuE.typing-1KJk_j .inner-1gJC7_ {left: 1px !important;top: 1px !important;}
+
+/*----------------BACKGROUND COLORS------------------*/
+
+.theme-dark .messages-wrapper,.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span,.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color:rgba(26,26,26,1); /* messages bg */
+}
+.container-PNkimc {
+    background-color:rgba(30,30,30,1); /* channel list */
+}
+.container-2Thooq {
+    background-color:rgba(30,30,30,1); /* user bg */
+    margin-bottom:0px;
+}
+.container-2Rl01u {
+    background-color:rgba(20,20,20,1);
+}
+.theme-dark .title-3qD0b- {
+    background-color:rgba(20,20,20,1); /* channel title bar */
+}
+.theme-dark .chat>.content, .theme-dark .chat form {
+    background-color:rgba(26,26,26,1); /* message input area */
+}
+.theme-dark .members-1998pB {
+    background-color:rgba(30,30,30,1); /* member list */
+}
+.guilds-wrapper {
+    background-color:rgba(20,20,20,1); /* server list */
+}
+.typeWindows-1za-n7 {
+    background-color:rgba(20,20,26,1); /* window top */
+}
+/*-SCROLLERS-*/
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color:rgba(20,20,20,1);
+    border-color:rgba(26,26,26,1);
+    display:none;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color:rgba(30,30,30,1);
+    border-color:rgba(26,26,26,1);
+    display:none;
+}
+/*-MISC-*/
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div,.theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
+    background-color:rgba(222,70,70,1);
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    color:rgba(222,70,70,1);
+}
+
+/*---------------------TWEAKS---------------------*/
+/*remove server icon background*/
+.guilds-wrapper .guilds .guild .guild-inner {
+    background:rgba(0,0,0,0);
+}
+/*show scroller on hover*/
+.messages-wrapper:hover ::-webkit-scrollbar-thumb{
+    display:block !important;
+}
+.messages-wrapper:hover ::-webkit-scrollbar-track-piece{
+    display:block !important;
+}
+/*user popout*/
+.userPopout-3XzG_A {
+    border-radius: 0px 0px 5px 5px;
+}
+.avatarWrapper-3H_478,.popout-2fzvxG, .profile-ZOdGIb {
+    width:250px;
+    height:250px;
+    border-radius:0;
+    margin-bottom:0;
+}
+.statusProfile-3ynqtt {
+    width:250px;
+    height:5px;
+    right:0;
+    bottom:0;
+}
+.maskProfile-1ObLFT {
+    -webkit-mask:0;
+}
+.avatarHint-1qgaV3 {
+    border-radius:0;
+}
+.headerText-2sdzFM {
+    position:absolute;
+    margin-top:107px;
+    background-color:rgba(0,0,0,0.7);
+    width:250px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.headerTop-3C2Zn0 {
+    margin:0;
+    padding:0;
+}
+.headerName-fajvi9 {
+    display:none;
+}
+.theme-dark .headerNormal-T_seeN {
+    background-color:rgba(0,0,0,0.6);
+}
+
+.headerTagUsernameNoNickname-2_H881 {
+    display:inline;
+}
+.headerTag-2pZJzA {
+    font-weight:600;
+    color:white;
+    font-size:100%;
+}
+.headerTag-2pZJzA .discriminator {
+    font-weight:400;
+    color:rgba(255,255,255,0.5);
+    font-size:80%;
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color:rgba(26,26,26,1);
+}
+.theme-dark .note-3kmerW textarea {
+    background-color:rgba(0,0,0,0.1);
+}
+
+.theme-dark .quickMessage-1yeL4E {
+    background-color:rgba(0,0,0,0.1);
+    margin-left:-4px;
+    width:100%;
+}
+
+.protip-YaFfgO {
+    display:none;
+}
+.userPopout-3XzG_A {
+    box-shadow: -3px 3px 5px rgb(20,20,20);
+}
+
+.body-3iLsc4 {
+    padding-bottom:5px;
+}
+
+.footer-1fjuF6 {
+    padding-top:5px;
+    padding-right:5px;
+}
+.theme-dark .typing-2GQL18 {
+    background-color:rgb(26,26,26);
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+    display:none;
+}
+
+.guilds-wrapper .guilds .guild.selected .guild-icon {
+    animation:opacity 0.5s;
+    opacity:1;
+    overflow:hidden !important;
+    border-radius: 15px !important;
+}
+.guilds-wrapper .guilds .guild .guild-icon:hover {
+    animation:opacity 0.5s;
+    opacity:1;
+    border-radius: 15px !important;
+}
+.guilds-wrapper .guilds .guild-icon {
+    opacity:0.5;
+    border-radius:25px !important;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    background-color:rgba(255,255,255,0.5);
+}
+
+@keyframes opacity {
+  0% {
+    opacity:0.5;
+    border-radius:25px;
+  }
+  100% {
+    opacity:1;
+    border-radius:15px;
+  }
+}
