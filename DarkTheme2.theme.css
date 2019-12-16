@@ -1,4 +1,5 @@
-    
+//META{"name":"lightThemesopernik566","description":"ThemeFixerCSS for transparent themes","author":"sopernik566","version":"1.0.2"}*//
+
 //META{"name":"My_New_Theme","description":"A simple tutorial theme","author":"sopernik566","version":"1.0"}*//
 
 
@@ -14,8 +15,22 @@
     color: var(--interactive-normal);
 }
 
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: #677bc4;
+}
+
+.channelTextArea-rNsIhG {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.form-2fGMdU {
+    border-top: 0px solid var(--background-modifier-accent);
+
+
 border-top: 0px solid var(--background-modifier-accent);
 }
+
 .dividerContent-2L12VI {
     display: -webkit-box;
         -webkit-box-align: center;
@@ -36,14 +51,6 @@ element.style {
     border-color: #2f3136;
 }
 
-.messageGroupBlocked-3wrQQX {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border: 0px solid;
-    border-radius: 0px;
-    margin: 0px 0px 0px 0px;
-}
 
 element.style {
 }
