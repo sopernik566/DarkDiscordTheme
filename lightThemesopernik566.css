@@ -1,14 +1,138 @@
-//META{"name":"ThemeFixer","description":"ThemeFixerCSS for transparent themes","author":"DevilBro","version":"1.0.2"}*//
+//META{"name":"lightThemesopernik566","description":"This is my first New Theme","author":"sopernik566","version":"1"}*//{}
 
-//META{"name":"My_New_Theme","description":"A simple tutorial theme","author":"sopernik566","version":"1.0"}*//
 
+.activity-11LB_k {
+    background-color: #43b581;
+    padding: 10px;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+    background: #7289da;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #f18383;
+    border-radius: 14px;
+    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: #43b581;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+    background: #7289da;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #f18383;
+    border-radius: 14px;
+    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+
+.icon-GhnIRB {
+    color: #0051ff;
+}
+
+.icon-GhnIRB {
+    color: #0051ff;
+}
+
+.icon-GhnIRB {
+    color: #0051ff;
+}
+
+.unread-1xRYoj {
+    background-color: #43b5814f;
+    opacity: .9;
+}
+
+.divider-3zi9LO+.messageGroupBlocked-JqfeE2 {
+    margin-top: 0px;
+}
+.messageGroupBlocked-3wrQQX:last-child {
+    margin-bottom: 0px;
+}
+
+.barFill-23-gu- {
+    background: #43b581;
+    height: 100%;
+}
+
+.active-23Nm0T .icon-3D60ES, .buttonWrapper-1ZmCpA:hover .icon-3D60ES {
+    color: #43b581;
+}
+
+.selected-1GqIat .icon-22AiRD {
+    color: #f18383;
+}
+
+.icon-3D60ES {
+    width: 24px;
+    height: 24px;
+}
+
+.button-3AYNKb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #f18383;
+}
+
+.button-14-BFJ.enabled-2cQ-u7:hover {
+    color: #43b581;
+    background-color: #4f545c52;
+}
+
+.attachButton-1UjEWA:hover .attachButtonPlus-rUdX-B {
+    fill: #43b581;
+}
+
+.attachButtonPlus-rUdX-B {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 24px;
+    height: 24px;
+    fill: #f18383;
+}
+
+.button-14-BFJ {
+    line-height: 0;
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 4px;
+    position: relative;
+    color: #f18383;
+}
 
 .dividerContent-2L12VI {
     display: -webkit-box;
-        -webkit-box-align: center;
+    display: -ms-flexbox;
+    display: table;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     line-height: 0px;
-    font-weight: 100;
-    font-size: 5px;
+    font-weight: 400;
+    font-size: 6px;
 }
 
 element.style {
@@ -33,6 +157,19 @@ element.style {
     cursor: pointer;
     margin: 0;
     color: var(--interactive-normal);
+}
+
+.messageGroupBlocked-3wrQQX {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 3px 0;
+    background-color: rgba(0,0,0,.05);
+    color: var(--text-muted);
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 element.style {
@@ -84,6 +221,11 @@ element.style {
     font-size: 6px;
 }
 
+.dividerContent-2L12VI:before {
+    right: 100%;
+    margin-right: 0px;
+}
+
 .item-2hkk8m {
     position: absolute;
     display: block;
@@ -99,7 +241,7 @@ element.style {
     --text-normal: #2e3338;
     --text-muted: #747f8d;
     --text-link: #0051ff;
-    --channels-default: #f18383;
+    --channels-default: #e29797;
     --interactive-normal: #4f5660;
     --interactive-hover: #2e3338;
     --interactive-active: #060607;
@@ -129,6 +271,47 @@ element.style {
     --deprecated-text-input-border-hover: #b9bbbe;
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
+}
+
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #00b0f4;
+    --channels-default: #e29797;
+    --interactive-normal: #a9a9a9;
+    --interactive-hover: #43b581;
+    --interactive-active: #43b581;
+    --interactive-muted: #4f545c;
+    --background-primary: #36393f;
+    --background-secondary: #2f3136;
+    --background-tertiary: #202225;
+    --background-accent: #4f545c;
+    --background-floating: #18191c;
+    --background-mobile-header: #2f3136;
+    --background-modifier-hover: #43b5812e;
+    --background-modifier-active: #43b581a1;
+    --background-modifier-selected: #43b58145;
+    --background-modifier-accent: #43b58100;
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #40444b;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
 }
 
 .closeButton-1tv5uR {
@@ -262,12 +445,16 @@ a {
     border-color: #f18383;
 }
 
+.theme-dark .closeButton-1tv5uR {
+    border-color: #f18383;
+}
+
 .icon-22AiRD {
     display: block;
     width: 20px;
     height: 20px;
     -webkit-app-region: no-drag;
-    color: #ff0000;
+    color: #e29797;
 }
 
 .header-QKLPzZ .BDFDB-textscroll {
@@ -281,19 +468,6 @@ a {
     width: 240px;
     border: 1px solid;
     border-color: rgba(244, 3, 3, 0.22);
-}
-
-.uploadModal-2ifh8j .footer-3mqk7D {
-    border-radius: 0 0 10px 10px;
-    background-color: #43b581;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding: 10px;
 }
 
 
@@ -310,14 +484,27 @@ a {
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  background-color: #f18383;
-  border: 1px solid #7289da;
+    background-color: #f18383;
+    border: 0px solid #7289da;
 }
 
 .theme-light .bda-slist li {
     background-color: #b543433b;
     color: #4f545c;
     border-color: #dcddde;
+}
+
+.form-2fGMdU {
+    border-top: 0px solid var(--background-modifier-accent);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #f18383;
 }
 
 .channelTextArea-rNsIhG {
